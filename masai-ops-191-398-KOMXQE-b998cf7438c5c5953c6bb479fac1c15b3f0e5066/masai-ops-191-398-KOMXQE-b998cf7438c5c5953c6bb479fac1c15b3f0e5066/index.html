@@ -4,6 +4,27 @@
     <title>Create Form</title>
     <style>
       /* Write all necessery css here  */
+      
+      .container{
+        margin: 1rem;
+        padding: 2rem 2rem;
+        text-align: center;
+      }
+      .container > div{
+        margin-right: 50px;
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 5px;
+        padding: 2rem 2rem;
+        vertical-align: middle;
+
+      }
+      input{
+        margin-bottom: 8px;
+      }
+      h1{
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -11,11 +32,34 @@
       <div>
         <h1>Signup Form</h1>
         <!-- Create the Signup form here  -->
-    </div>
-    <div>
-      <h1>Signin Form</h1>
-      <!-- Create the Signin Form Here  -->
-    </div>
+        <form action="">
+          <input type="text" placeholder="Name">
+          <br/>
+          <input type="email" placeholder="Email Address">
+          <br/>
+          <input type="text" placeholder="Country">
+          <br/>
+          <input type="number" placeholder="Phone">
+          <br/>
+          <input type="password" placeholder="Password">
+          <br/>
+          <input type="submit" value="Create Account">
+        </form>
+      </div>
+      <div>
+        <h1>Signin Form</h1>
+        <!-- Create the Signin Form Here  -->
+        <form action="">
+          <input type="text" placeholder="Name">
+          <br/>
+          <input type="email" placeholder="Email Address">
+          <br/>
+          <input type="password" placeholder="Password">
+          <br/>
+          <input type="submit" value="Signin">
+        </form>
+
+      </div>
     </div>
   </body>
 </html>
